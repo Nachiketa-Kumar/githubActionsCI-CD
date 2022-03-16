@@ -34,7 +34,7 @@ jobs:
           with:
             github-token: ${{ secrets.TOKEN }}
             image-name: myjavaapp
-            image-tag: viv2
+            image-tag: v2
         
 
  
