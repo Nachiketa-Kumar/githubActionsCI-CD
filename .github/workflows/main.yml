@@ -30,11 +30,11 @@ jobs:
 
       # Runs a single command using the runners shell
         - name: Build and Publish head Docker Image
-          run: nachiketa91/repo1
+          run: VaultVulp/gp-docker-action@1.1.7
           with:
             github-token: ${{ secrets.TOKEN }}
             image-name: myjavaapp
-            image-tag: v1
+            image-tag: v2
         
 
  
